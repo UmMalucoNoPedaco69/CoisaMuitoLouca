@@ -1,0 +1,3 @@
+for (int j = i - 1; j >= 0 && array[j] > chave; j--) {
+    array[j + 1] = array[j];
+}
